@@ -1,1 +1,40 @@
-# kaggle-cryptocurrency-analysis-python
+# 暗号通貨市場分析
+このプロジェクトは、暗号通貨市場データの分析を行うためのPythonコードを含んでいます。データのクリーニング、探索的データ分析（EDA）、および可視化を通じて、暗号通貨市場のトレンドやパターンを理解することを目的としています。
+
+プロジェクト概要
+このノートブックでは、以下のステップを踏んで暗号通貨市場の包括的な分析を行います：
+
+データの読み込み: CSVファイルから暗号通貨市場データをインポートします。
+データのクリーニング: 不要な列（slugおよびname）を削除し、分析のためにデータを整えます。
+探索的データ分析（EDA）: ユニークなシンボルのカウントや、市場データの分布とトレンドの調査を行います。
+可視化: matplotlib、seaborn、およびplotlyなどのライブラリを使用してデータを視覚的に表現します。
+前提条件
+このノートブックを実行するためには、以下のPythonライブラリが必要です：
+
+pandas
+numpy
+matplotlib
+seaborn
+geopandas（オプション）
+scipy
+plotly
+これらの依存関係は、次のコマンドでインストールできます：
+
+bash
+コードをコピーする
+pip install pandas numpy matplotlib seaborn geopandas scipy plotly
+セットアップ
+リポジトリをクローン:
+
+bash
+コードをコピーする
+git clone https://github.com/your-username/crypto-analysis.git
+cd crypto-analysis
+データセットのダウンロード:
+データセットcrypto-markets.csvがプロジェクトディレクトリに存在することを確認してください。存在しない場合は、正しい場所に配置するか、ノートブック内のパスを更新してください。
+
+Jupyter Notebookを実行:
+環境が整ったら、Jupyter Notebookを開き、すべてのセルを順に実行することで分析を開始できます。
+
+結果
+ノートブックを通して、暗号通貨市場の様々なトレンドや特徴が視覚的に確認できます。可視化された結果を元に、さらなる分析やビジネス上の意思決定を行うことが可能です。
